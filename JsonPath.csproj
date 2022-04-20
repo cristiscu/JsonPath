@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>XtractPro.Utils.JsonPath</AssemblyName>
+    <RootNamespace>XtractPro.Utils.JsonPath</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="files\Books.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Snowflake.Data" Version="2.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="files\Books.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
