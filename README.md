@@ -14,5 +14,5 @@ Load the solution in Visual Studio (the free Community Edition), update the NuGe
 ![Screen](/images/JSON-Path-for-Snowflake.png)
 
 * Switch between different built-in JSON Path expression from the top combo box. Create your own or customize any of them, then click Run.  
-* Compare the result generated from (Json.NET)[https://www.newtonsoft.com/json] internally, with the dynamic result or running the generated query in Snowflake.  
+* Compare the result generated from [Json.NET](https://www.newtonsoft.com/json) internally, with the dynamic result or running the generated query in Snowflake.  
 * Both Ourput Data and Query Result show one or more rows of returned data.  
